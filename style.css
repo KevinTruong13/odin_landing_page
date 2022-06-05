@@ -26,12 +26,12 @@ button {
     font-weight: bold;
 }
 
-button, .sign-up {
+button, .sign-up > div {
     background-color: #3882F6;
     color: #F9FAF8;
 }
 
-button, .info img, .sign-up {
+button, .info img, .sign-up > div {
     border-radius: 8px;
 }
 
@@ -123,6 +123,7 @@ body > div {
     display: flex;
     justify-content: center;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .info img {
@@ -137,7 +138,7 @@ body > div {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 120px 480px;
+    padding: 120px 24%;
 }
 
 .quote-text {
@@ -150,4 +151,20 @@ body > div {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+.sign-up {
+    padding: 80px 20%;
+}
+
+.sign-up > div {
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    justify-content: space-evenly;
+}
+
+.sign-up button {
+    border: #E5E7EB solid;
 }
