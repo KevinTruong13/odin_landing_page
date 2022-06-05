@@ -39,7 +39,7 @@ body > div {
     padding: 8px 15%;
 }
 
-.top {
+.top, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -154,7 +154,7 @@ body > div {
 }
 
 .sign-up {
-    padding: 80px 20%;
+    padding: 80px 24%;
 }
 
 .sign-up > div {
@@ -167,4 +167,10 @@ body > div {
 
 .sign-up button {
     border: #E5E7EB solid;
+}
+
+.footer {
+    padding: 32px 0;
+    text-align: center;
+    font-weight: 300;
 }
