@@ -109,13 +109,14 @@ body > div {
     flex-direction: column;
     justify-content: center;
     color: #606060;
+    padding: 40px;
 }
 
 .info h1 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 800;
-    margin: 24px;
+    margin-bottom: 40px;
 }
 
 .info ul {
@@ -132,4 +133,21 @@ body > div {
 
 .info li, .info img {
     width: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 120px 480px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.quote-credit {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
